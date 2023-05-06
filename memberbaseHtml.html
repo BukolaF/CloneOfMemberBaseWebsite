@@ -5,50 +5,126 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>memberbase templates</title>
+ <link rel="stylesheet" href="CssForMemberbase.css"/>
  <link rel="preconnect" href="https://fonts.googleapis.com/"/>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
     rel="stylesheet"/>
 </head>
 <body>
- <div id="announcement-bar" class="banner-section">
-  <div class="banner">
-   <div class="banner-text"> A Webflow membership templates for resources websites 
-    <a href="https://www.nikolaibain.com/templates" class="banner-link">see all templates> </a>
-   </div>
-  </div>
- </div>
- <h1
- class="brand-logo">
-  <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aeebbbc7c1e424f6724096_Memberbase%20Logo-1.svg" alt="memberbase logo"></h1>
-  <nav role="navigation" class="nav-content">
-   <div class="search-banner">
-    <div class="search-section">
-     <form action="/search" class="search w-form"><input type="search" class="search-bar w-input" maxlength="256" name="query" placeholder="Search resources" id="search" required="">
-     <input type="submit" value="Search" class="hidden w-button">
-     </form>
+ <div id="announcement-bar" class="banner-section wf-section">
+    <div class="banner-container  w-container">
+      <div class="banner">
+        <div class="banner-text"> "A Webflow membership templates for resources websites" 
+        <a href="https://www.nikolaibain.com/templates" target="banner-link">see all templates> </a>
+        </div>
+      </div>
     </div>
+  </div>
+   <div class="nav-container w-container">
+    <div class="logo-div">
+     <a href="https://memberbase-template.webflow.io/"aria aria-current="page"class="nav-logo w-inline-block w--current">
+      <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aeebbbc7c1e424f6724096_Memberbase%20Logo-1.svg" alt="memberbase logo"  class="logo">
+     </a>
+    </div>
+    <nav role="navigation" class="nav-content  w-nav-menu">
+      <div class="nav-menu">
+      <a href="./'resources.html" class="nav link w-nav-link">All Resources</a>
+      <button class="nav-link" data-logout="log in" type="button">Log In</button>
+      </div>
+   <div class="nav-cta-button-container">
+    <a href="https://memberbase-template.webflow.io/sign-up" class="nav-link cta-button w-nav-link">Free Sign Up</a>
    </div>
-   <div class="nav-menu">
-    <a href="./resources.html" class="nav-link">All Resources</a>
-   <button class="nav-link" data-logout="log in" type="button">Log In</button>
+  </nav>
+  <div  class="menu-button w-nav-button"  style="webkit-user-select"  role="button">
+    <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aee78456e4200f2eac4d49_Menu%20Icon.svg" class="menu-icon">
    </div>
-   <div class="nav-button">
-    <a href="https://memberbase-template.webflow.io/sign-up" class="nav-link">Free Sign Up</a>
-   </div>
+    </div>
+    <div class="w-nav-overlay"  id="w-nav-overlay"></div>
+  </div>
    <div class="page-wrapper">
+    <div class="section light-color-gradient wf-section">
+      <div class="container">
+      <div  class="w-layout-grid hero-grid">
     <div class="text-box">
-     <h1 class="heading">Access a library of free design resources</h1>
-     <p>The best resources and books from around the web, collected and curated for your reading</p>
-     
-     <a href="https://memberbase-template.webflow.io/sign-up" class="button">Get Access Now</a>
+     <h1 class="heading h1">Access a library of free design resources</h1>
+     <p class="paragraph">"The best resources and books from around the web, collected and curated for your reading"</p>
+      <div  class="spacer"></div>
+     <a href="./about.html" class="button w-button">Get Access Now</a>
      </div>
      <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aeefb7ef1a0b764b386779_Design%20Resources%20Home.svg" alt="./design resources home">
     </div>
    </div>
+  </div>
+ <div class="section wf-section">
+  <div class="container">
+  <div class="section-top">
+   <h2  class="heading">Featured Resources</h2>
+   <a href="/resources.html" class="buttonw-button">See All Resources</a>
+  </div>
+<div class="w-dyn-list"> 
+  <div role="list" class="w-dyn-items">
+ <div role="listitem"class="ebook-box-w-dyn-item">
+  <a href="https://memberbase-template.webflow.io/ebook/grids-alignment" class="e-book-thumbnail  w-inline-block">
+   <img src="https://assets.website-files.com/62aee78456e420f166ac4d1d/62b0e7a32dd6005e84c2ec75_Ebook%20Cover%201.svg" alt="grids-alignment" class="image">
+   </a>
+   <div class="paragraph">By Bukola ojoye</div>
+   <a  href="https://memberbase-template.webflow.io/ebook/grids-alignment">
+    <h2 class="heading">Grids & Alignment</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero maiores eveniet expedita in sint quidem magnam hic harum corporis.</p>
+   </a>
+ </div>
+</div>
+<div role="listitem" class="ebook-box-item">
+ <a href="https://memberbase-template.webflow.io/ebook/remote-work-for-design-teams" class="e-book-thumbnail">
+  <img src="https://assets.website-files.com/62aee78456e420f166ac4d1d/62b0e7c4e63aa2b80006a1d4_Ebook%20Cover%203.svg" class="image">
+ </a>
+ <div class="paragraph">By Bukola ojoye</div>
+   <a href="https://memberbase-template.webflow.io/ebook/remote-work-for-design-teams">
+    <h2 class="heading">Remote Work For Design Teams</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe a aspernatur eveniet necessitatibus delectus!</p>
+   </a>
+</div>
+<div role="listitem" class="ebook-box-item">
+ <a href="https://memberbase-template.webflow.io/ebook/design-systems-in-product-teams" class="e-book-thumbnail">
+  <img src="https://assets.website-files.com/62aee78456e420f166ac4d1d/62b0e7c4e63aa2b80006a1d4_Ebook%20Cover%203.svg" class="image">
+ </a>
+ <div class="paragraph">By Bukola ojoye</div>
+   <a href="https://memberbase-template.webflow.io/ebook/design-systems-in-product-teams">
+    <h2 class="heading">Design Systems In Product Teams</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi iste temporibus!</p>
+   </a>
+</div>
+<div role="listitem" class="ebook-box-item">
+ <a href="https://memberbase-template.webflow.io/ebook/all-in-one-color-handbook" class="e-book-thumbnail">
+  <img src="https://assets.website-files.com/62aee78456e420f166ac4d1d/62b0e909698fe432638ec008_Ebook%20Cover%204.svg" class="image">
+ </a>
+ <div class="paragraph">By Bukola ojoye</div>
+   <a href="https://memberbase-template.webflow.io/ebook/all-in-one-color-handbook">
+    <h2 class="heading">All in One Color Handbook</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum molestiae impedit laudantium quos provident debitis voluptatem iure doloribus assumenda!</p>
+   </a>
+</div>
 
-  </nav>
+<div role="listitem" class="ebook-box-item">
+ <a href="https://memberbase-template.webflow.io/ebook/digital-wellbeing-and-support" class="e-book-thumbnail">
+  <img src="https://assets.website-files.com/62aee78456e420f166ac4d1d/62b0e91246a49c9989b055c0_Ebook%20Cover%205.svg" class="image">
+ </a>
+ <div class="paragraph">By Bukola ojoye</div>
+   <a href="https://memberbase-template.webflow.io/ebook/digital-wellbeing-and-support">
+    <h2 class="heading">Digital Wellbeing and Support</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum molestiae impedit laudantium quos provident debitis voluptatem iure doloribus assumenda!</p>
+   </a>
+</div>
 
+ <div class="text-box">
+  <h2 class="heading h2">Get more great resources</h2>
+  <p class="paragraph">Get the latest design resources from across the world. Straight to your inbox</p>
+ </div>
+ <h2 class=""
+
+
+ 
  
 
 
